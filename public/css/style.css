@@ -1,0 +1,64 @@
+/* ===== ОСНОВА ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    /* фикс футера вниз */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    margin-top: 60px;
+}
+
+/* ===== ЗАГОЛОВКИ ===== */
+h1, h2 {
+    font-weight: 700;
+}
+
+/* ===== ШАПКА ===== */
+header {
+    background: linear-gradient(90deg, #1c1f24, #2b2f36);
+}
+
+/* ===== СЕТКА ===== */
+.row {
+    justify-content: center;
+}
+
+/* ===== КАРТОЧКИ ===== */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== КНОПКИ ===== */
+.btn-dark {
+    background-color: #2b2f36;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+}
+
+/* ===== ФУТЕР ===== */
+footer {
+    background-color: #1f2328;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
